@@ -5,17 +5,17 @@
   Repères Markdown : une ligne qui commence par # est un titre ; une ligne qui commence par - est une puce.
 -->
 
-# [Titre de ton projet]
+# Select Equity - Analyse financière des actions par ISIN
 
 <!-- Une phrase qui dit ce que fait ton projet. Exemple : « Prévoir la production de 6 boulangeries selon la météo pour réduire les invendus. » -->
-[Ton projet en une phrase.]
+Tableau de bord Power BI permettant d'analyser et de comparer les performances financières et boursières d'entreprises à partir de leur code ISIN, avec une première version consacrée aux semi-conducteurs.
 
 ## 1. Le problème
 
 <!-- Reprends ta fiche projet : le contexte en 2 ou 3 phrases, la question centrale, l'utilisateur. -->
-- **Contexte** : [la situation et le problème constaté]
-- **Question centrale** : [Comment … pour … ?]
-- **Utilisateur** : [qui prend une décision grâce au projet]
+- **Contexte** : L'analyse d'actions cotées nécessite de rassembler des données financières et boursières provenant de différentes sources. Leur comparaison peut être complexe. Ce projet vise à centraliser ces informations dans un tableau de bord interactif Power BI, en commençant par le secteur des semi-conducteurs.
+- **Question centrale** : Comment faciliter l'analyse et la comparaison d'actions cotées à partir de leur code ISIN, afin d'aider à la prise de décision financière ?
+- **Utilisateur** : Investisseurs particuliers et analystes financiers souhaitant comparer des entreprises cotées et mieux comprendre leurs performances financières et boursières.
 
 ## 2. Les données
 
