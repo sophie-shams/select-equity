@@ -20,10 +20,12 @@ Tableau de bord Power BI permettant d'analyser et de comparer les performances f
 ## 2. Les données
 
 <!-- Une ligne par source envisagée, comme dans ta fiche projet. -->
+
 | Source | Type | Ce qu'elle apporte |
-| --- | --- | --- |
-| [Nom de la source et qui la publie] | [CSV, Excel, site web, API, base de données] | [Les données utiles au projet] |
-| [Nom de la source et qui la publie] | [Type] | [Les données utiles au projet] |
+|---|---|---|
+| Yahoo Finance | Site web | Cours ajustés des cinq actions et de SOXX |
+| SEC EDGAR | API | Comptes 10-K et 10-Q et dates de dépôt pour utiliser les chiffres déjà publiés |
+| Référentiel des cinq actions | Table SQL via Python | Correspondance ISIN, ticker, place de cotation et identifiant SEC |
 
 ## 3. L'organisation du dépôt
 
@@ -49,4 +51,4 @@ Tableau de bord Power BI permettant d'analyser et de comparer les performances f
 - [ ] Analyse et tableau de bord
 
 ---
-[Ton prénom et ton nom] · Formation Data Analyst & IA · DataSuits
+Sophie Shams · Formation Data Analyst & IA · DataSuits
