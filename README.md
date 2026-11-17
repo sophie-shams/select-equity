@@ -43,7 +43,7 @@ Tableau de bord Power BI permettant d'analyser et de comparer les performances f
 
 <!-- Les étapes de ton projet. La première est faite. Tu cocheras les suivantes une fois le module terminé, quand tu appliqueras chaque méthode à ton projet : remplace alors [ ] par [x]. -->
 - [x] Sujet choisi, dossiers créés, dépôt publié
-- [ ] Collecte des données
+- [x] Collecte des données
 - [ ] Requêtes SQL
 - [ ] Nettoyage et dataset final
 - [ ] Stockage en base
