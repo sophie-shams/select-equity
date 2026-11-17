@@ -23,7 +23,7 @@ Tableau de bord Power BI permettant d'analyser et de comparer les performances f
 
 | Source | Type | Ce qu'elle apporte |
 |---|---|---|
-| Yahoo Finance | Site web | Cours ajustés des cinq actions et de SOXX |
+| Yahoo Finance — test pilote : [AMD](https://finance.yahoo.com/quote/AMD/history/) et [SOXX](https://finance.yahoo.com/quote/SOXX/history/) | Site web | Cours ajustés d’AMD, NVIDIA, Intel, Broadcom et Marvell sur 2021–2025, avec l’ETF SOXX comme référence sectorielle. |
 | [SEC EDGAR — 10-Q AMD](https://www.sec.gov/Archives/edgar/data/2488/0000002488-25-000166-index.html) | API | Comptes 10-K et 10-Q et dates de dépôt pour utiliser les chiffres déjà publiés |
 | Référentiel des cinq actions | Table SQL via Python | Correspondance ISIN, ticker, place de cotation et identifiant SEC |
 
