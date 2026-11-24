@@ -125,3 +125,20 @@ LEFT JOIN select_equity.synthese_financiere AS f
 SELECT *
 FROM select_equity.v_fiche_action_2025
 ORDER BY Ticker;
+-- Je récupère les cinq fiches par ISIN pour les importer dans Power BI.
+SELECT *
+FROM select_equity.v_fiche_action_2025
+ORDER BY Ticker;
+
+-- Je ramène les cours ajustés de chaque ticker à 100 au 31/12/2020.
+-- Je conserve SOXX pour tracer la référence sectorielle.
+
+SELECT
+    c.`Date`,
+    c.Ticker,
+    ROUND(100 * c.Cloture_ajustee / d.Cloture_ajustee, 6) AS Indice_base_100
+FROM select_equity.v_cours_avec_isin AS c
+JOIN select_equity.v_cours_avec_isin AS d
+    ON c.Ticker = d.Ticker
+    AND d.`Date` = '2020-12-31'
+ORDER BY c.`Date`, c.Ticker;
