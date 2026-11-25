@@ -22,8 +22,7 @@ Marvell et NVIDIA sur la période 2021–2025.
 
 **Question centrale**
 
-Comment combiner les données boursières et financières pour déterminer
-quelles actions envisager à l’achat et à quel cours examiner une entrée ?
+Comment combiner les données boursières et financières pour repérer les actions à envisager à l’achat et estimer un seuil d’entrée ?
 
 ### Comment le modèle arrive à sa décision
 
@@ -34,17 +33,14 @@ quelles actions envisager à l’achat et à quel cours examiner une entrée ?
    Conserver, le ratio des cours ajustés action / SOXX doit être au moins
    un écart-type sous sa moyenne des 60 séances précédentes. Le rapport
    traduit ce seuil en dollars, à niveau de SOXX constant.
+3. Estimer un prix de sortie. La sortie est simulée lorsque le ratio des cours ajustés action/SOXX retrouve sa moyenne des 60 séances précédentes. Le prix de sortie estimé est le cours qui ramènerait le ratio à cette moyenne si SOXX restait à son niveau du 31 décembre 2025.
 
 ### Ce que montre le rapport
 
-- **Fiche action** — Deux graphiques, les indicateurs, les deux signaux
-  et une consigne en français adaptée à l’action sélectionnée.
-- **Comment le signal est calculé** — Les règles du score et du filtre
-  d’entrée, avec les résultats détaillés des cinq actions.
+- **Fiche action** — Deux graphiques, les indicateurs, le signal du modèle, le signal d’entrée et les prix d’entrée et de sortie estimés.
+- **Comment le signal est calculé** — Cet onglet détaille les cinq critères du score, les conditions d’entrée et le calcul du prix de sortie estimé. Il présente les résultats des cinq actions au 31 décembre 2025.
 
-Par exemple, au 31 décembre 2025, NVIDIA obtient 4/5 et un signal Achat,
-mais le filtre d’entrée indique d’attendre un repli. Sa clôture est de
-186,50 USD et son seuil d'entrée calculé est de 181,45 USD à SOXX constant.
+Par exemple, au 31 décembre 2025, NVIDIA obtient 4/5 et un signal Achat. Sa clôture de 186,50 USD est au-dessus du seuil d’entrée estimé de 181,45 USD. Le modèle indique donc d’attendre un repli. Si une entrée a lieu, le prix de sortie estimé est de 189,96 USD, à SOXX constant.
 
 ## 2. Les données
 
